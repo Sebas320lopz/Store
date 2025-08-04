@@ -1,0 +1,8 @@
+<ng-container  *ngIf="image; else noImage">
+     <img  (load)="ImgLoad()" (error)="ImgError()" [src]="image"    alt="Image">
+</ng-container>
+
+<ng-template #noImage>
+  <img [src]= "imageDefault" alt="">
+</ng-template>
+

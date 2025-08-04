@@ -1,0 +1,5 @@
+<app-img [imgUrl]="product.image"></app-img>
+<h2>{{product.price | currency:'cop'}}</h2>
+<p>{{product.title}}</p>
+<p appHighlight>{{product.description}}</p>
+<button (click)="addToCart()">Add to Cart</button>
