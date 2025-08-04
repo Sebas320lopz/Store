@@ -1,59 +1,33 @@
-# MyStore
+#MyStore
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
+MyStore es una aplicación web desarrollada con **Angular 20** que permite visualizar productos obtenidos desde la [Fake Store API](https://fakestoreapi.com/).  
+Su objetivo es demostrar el consumo de APIs REST, manejo de componentes y buenas prácticas en Angular.
 
-## Development server
+##Tecnologías usadas
+- Angular 20
+- TypeScript
+- HTML / SCSS
+- Fake Store API
 
-To start a local development server, run:
+##Funcionalidades
+- Listado de productos con información detallada
+- Consumo de datos desde API externa
+- Interfaz responsiva y moderna
 
-```bash
-ng serve
-```
+##Vista previa
+<img width="1866" height="1122" alt="image" src="https://github.com/user-attachments/assets/97fa990f-5015-4a7d-b795-f9567f565723" />
+<img width="365" height="988" alt="image" src="https://github.com/user-attachments/assets/050c7c78-ca63-4cde-b6f9-98ba0078f5f4" />
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+##Instalación y ejecución
+1. Clona el repositorio:
+  git clone https://github.com/tuusuario/mystore.git   
+  cd mystore
+2. Instala dependencias:
+  npm install
+3. Inicia el servidor:
+  ng serve
+4. Abre en el navegador:
+   http://localhost:4200/
